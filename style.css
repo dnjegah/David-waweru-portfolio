@@ -1,14 +1,32 @@
 *{
     box-sizing: border-box;
-    margin: 10px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(54, 215, 215);
     font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+.logo{
+    background: blueviolet;
+    font-size: larger;
+    justify-content: left;
 }
 nav{
     height: 60px;
-    background: #988ba3;
+    background: #6823a1;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: auto;
+    padding: 0 60px;
+    font-size: 16px;
+}
+.column__left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.profile__image{
+    width: 400px;
+    height: 400px;
 }
